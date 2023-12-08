@@ -37,7 +37,7 @@ function checkPalindrome () {
 
 const button = document.createElement('button')
 button.textContent = 'Check Palindrome'
-button.addEventListener ('click', checkPalindrome)
+button.addEventListener('click', checkPalindrome)
 document.getElementById('container').appendChild(button)
 
 const resultElement = document.createElement('div')
